@@ -1,0 +1,23 @@
+#input{
+    width: 500px;
+   height:40px
+   
+}
+.ul:hover{
+    outline: 1px solid white;
+    
+}
+.cl{
+    background-color:rgb(80, 150, 197);
+    
+}
+.p{
+    height:20px;
+    width:55px;
+    background-color:brown;
+    color:beige;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <script>
+        function ch() {
+            let n = document.getElementById("n1").value;
+          let price = 1000;
+            let total = n * price;
+
+            document.getElementById("p").innerHTML = "Total Price: " + total + " &#8377;";
+        }
+
+    </script>
+</head>
+<body>
+    <h1>card</h1>
+    <form action="">
+        <p>Banana 1000 &#8377;</p>
+        <select name="" id="n1" onchange="ch()">
+            <option value="">--Select Quantity--</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <p id="p"></p>
+    </form>
+</body>
+</html>
